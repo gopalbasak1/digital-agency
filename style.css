@@ -44,6 +44,8 @@
     display: block;
 }
 
+/* Banner CSS */
+
 .banner-container{
     background-image: url('./asset/image/background.jpg'), linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.4));
     background-blend-mode: overlay;
@@ -156,6 +158,7 @@
     border-radius: 23px;
 }
 
+
 .author-container{
     display:flex;
     gap:20px;
@@ -176,7 +179,7 @@
     width: 108px;
 }
 
-
+/* Appointmen CSS */
 .appointment-container{
     display:flex;
     justify-content: space-around;
@@ -188,6 +191,7 @@
     margin-top:-30px;
     align-items: center;
     color:white;
+    margin-bottom:20px;
 
 }
 .phone-call{
@@ -207,6 +211,57 @@
 }
 
 .appointment-description{
-    width:70%;
     margin-left:20px;
+}
+
+/* Blog CSS */
+
+.blog-container{
+    width:80%;
+    margin:20px auto;
+    padding:10px;
+}
+.blog{
+    color: red;
+}
+
+.blog-heading{
+    text-align: center;
+    width:600px;
+    margin:20px auto;
+}
+
+.blog-heading h1{
+    margin-bottom:5px;
+}
+
+.main-card{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.card{
+    width:280px;
+    height: 330px;
+    /* background-color: blue; */
+    box-shadow: 4px 8px 4px gray;
+    border-radius: 5px;
+    
+    
+}
+
+.blog-img{
+    width:100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card h3{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:0 10px 0 10px;
+}
+
+.card p{
+    padding:0 5px 0 5px;
 }
