@@ -90,18 +90,25 @@
     color:black;
     background-color: white;
 }
+/* Service CSS */
 
+.service{
+    width:1400px;
+    height: 100vh; 
+}
 .service-container{
+    width:100%;
     background-image: url('./asset/image/footer-bg.png'), linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.9));
     background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh; 
+    
     color:white;
     display:flex;
     align-items: center;
-    padding:25px;
+    padding:65px;
+    
 }
 
 .service-left h1{
@@ -180,15 +187,19 @@
 }
 
 /* Appointmen CSS */
+
+.appointment{
+    width:80%;
+    margin:0 auto;
+}
 .appointment-container{
     display:flex;
     justify-content: space-around;
-    width:70%;
     margin:auto;
     padding:20px;
     background-color: rgba(228, 25, 25, 0.9);
     border-radius: 10px;
-    margin-top:-30px;
+    margin-top:-45px;
     align-items: center;
     color:white;
     margin-bottom:20px;
@@ -264,4 +275,60 @@
 
 .card p{
     padding:0 5px 0 5px;
+}
+
+/* Footer CSS */
+
+.footer-container{
+    height: 100vh;
+    background-color: black;
+    color:white;
+    border-bottom:2px solid white;
+    
+    
+}
+.footer-part{
+    height: 80vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom:1px solid white;
+    width:1200px;
+    margin:auto;
+}
+.footer-first{
+    width:280px;
+}
+
+.footer-first img{
+    margin-bottom:20px;
+}
+
+.footer-first p{
+    margin-bottom:20px;
+}
+
+.footer-first span{
+    font-size:20px;
+    padding:10px 10px;
+}
+
+.footer-second h4 {
+    margin-bottom: 22px;
+    font-size: 20px;
+    padding-bottom: 18px;
+}
+
+.footer-second ul li {
+    list-style: none;
+    margin-bottom: 6px;
+    line-height: 30px;
+}
+.footer-second ul li i{
+    padding-right:5px;
+}
+.copy{
+    margin:20px auto;
+    text-align: center;
+    
 }
